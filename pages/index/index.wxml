@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <text>蜗牛也有爱情{{ks}}</text>
+    <button bindtap="sub">点击我赞我</button> 
+  </view>
+  <view>
+    <text style="display:{{sp}};color:{{yan}};font-size: 40rpx;">青云志2</text>
+    <button bindtap="cli">点击我</button>
+  </view>
+</view>

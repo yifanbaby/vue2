@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/wel/wel"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "小程序示例",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar":{
+    "list":[{
+      "color":"black",
+      "selectedColor": "#f00",
+      "backgroundColor": "white",
+      "text":"蜗牛",
+      "pagePath":"pages/index/index",
+      "borderStyle": "white"
+    },
+    {
+      "pagePath":"pages/logs/logs",
+      "text":"狮子",
+      "selectedColor": "red",
+      "backgroundColor": "white"
+    }
+    ]
+  },
+  "networkTimeout":{
+    "request":60000,
+    "connectSocket":60000
+  }
+}
